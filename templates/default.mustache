@@ -10,14 +10,14 @@ function base16-{{scheme-slug}} -d "{{scheme-name}}"
   set color04 {{base0D-hex-r}}/{{base0D-hex-g}}/{{base0D-hex-b}} # Base 0D - Blue
   set color05 {{base0E-hex-r}}/{{base0E-hex-g}}/{{base0E-hex-b}} # Base 0E - Magenta
   set color06 {{base0C-hex-r}}/{{base0C-hex-g}}/{{base0C-hex-b}} # Base 0C - Cyan
-  set color07 {{base05-hex-r}}/{{base05-hex-g}}/{{base05-hex-b}} # Base 05 - White
-  set color08 {{base03-hex-r}}/{{base03-hex-g}}/{{base03-hex-b}} # Base 03 - Bright Black
-  set color09 $color01 # Base 08 - Bright Red
-  set color10 $color02 # Base 0B - Bright Green
-  set color11 $color03 # Base 0A - Bright Yellow
-  set color12 $color04 # Base 0D - Bright Blue
-  set color13 $color05 # Base 0E - Bright Magenta
-  set color14 $color06 # Base 0C - Bright Cyan
+  set color07 {{base06-hex-r}}/{{base06-hex-g}}/{{base06-hex-b}} # Base 06 - White
+  set color08 {{base02-hex-r}}/{{base02-hex-g}}/{{base02-hex-b}} # Base 02 - Bright Black
+  set color09 {{base12-hex-r}}/{{base12-hex-g}}/{{base12-hex-b}} # Base 12 - Bright Red
+  set color10 {{base14-hex-r}}/{{base14-hex-g}}/{{base14-hex-b}} # Base 14 - Bright Green
+  set color11 {{base13-hex-r}}/{{base13-hex-g}}/{{base13-hex-b}} # Base 13 - Bright Yellow
+  set color12 {{base16-hex-r}}/{{base16-hex-g}}/{{base16-hex-b}} # Base 16 - Bright Blue
+  set color13 {{base17-hex-r}}/{{base17-hex-g}}/{{base17-hex-b}} # Base 17 - Bright Magenta
+  set color14 {{base15-hex-r}}/{{base15-hex-g}}/{{base15-hex-b}} # Base 15 - Bright Cyan
   set color15 {{base07-hex-r}}/{{base07-hex-g}}/{{base07-hex-b}} # Base 07 - Bright White
   set color16 {{base09-hex-r}}/{{base09-hex-g}}/{{base09-hex-b}} # Base 09
   set color17 {{base0F-hex-r}}/{{base0F-hex-g}}/{{base0F-hex-b}} # Base 0F
@@ -25,8 +25,8 @@ function base16-{{scheme-slug}} -d "{{scheme-name}}"
   set color19 {{base02-hex-r}}/{{base02-hex-g}}/{{base02-hex-b}} # Base 02
   set color20 {{base04-hex-r}}/{{base04-hex-g}}/{{base04-hex-b}} # Base 04
   set color21 {{base06-hex-r}}/{{base06-hex-g}}/{{base06-hex-b}} # Base 06
-  set colorfg $color07 # Base 05 - White
-  set colorbg $color00 # Base 00 - Black
+  set colorfg {{base05-hex-r}}/{{base05-hex-g}}/{{base05-hex-b}} # Base 05 - White
+  set colorbg {{base00-hex-r}}/{{base00-hex-g}}/{{base00-hex-b}} # Base 00 - Black
 
   if test -n "$TMUX"
     # Tell tmux to pass the escape sequences through
